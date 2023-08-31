@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "GitHub Light Default",
+    "keyboard.dispatch": "keyCode",
+    "vim.useCtrlKeys": true,
+    "vim.useSystemClipboard": true,
+    "vim.surround": true,
+    "vim.easymotion": true,
+    "vim.leader": ",",
+    "vim.smartRelativeLine": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                ";"
+            ],
+            "after": [
+                ":"
+            ]
+        }
+    ],
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "git.openRepositoryInParentFolders": "never",
+    "telemetry.telemetryLevel": "off",
+    "autoDocstring.docstringFormat": "google-notypes"
+}

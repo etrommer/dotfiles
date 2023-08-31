@@ -20,8 +20,9 @@ Plugin 'easymotion/vim-easymotion'
 "Color Schemes
 Plugin 'duythinht/inori'
 Plugin 'sjl/badwolf'
-" Plugin 'baskerville/bubblegum'
-" Plugin 'ajmwagar/vim-deus'
+Plugin 'baskerville/bubblegum'
+Plugin 'ajmwagar/vim-deus'
+Plugin 'cocopon/iceberg.vim'
 
 call vundle#end()
 
@@ -32,51 +33,22 @@ python3 del powerline_setup
 filetype plugin indent on
 
 "airline
-let g:powerline_loaded = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
-let g:airline_theme='powerlineish'
-let g:airline_enable_branch = 1
-let g:airline_enable_syntastic = 1
-let g:airline#extensions#tabline#buffer_nr_show = 1
+" let g:powerline_loaded = 1
+" let g:airline#extensions#tabline#enabled = 1
+" let g:airline_powerline_fonts = 1
+" let g:airline_theme='powerlineish'
+" let g:airline_enable_branch = 1
+" let g:airline_enable_syntastic = 1
+" let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
-" EasyMotion
-" easymotion highlight colors
-" hi link EasyMotionTarget ORANGE
-" hi link EasyMotionTarget2First DARK_ORANGE
-" hi link EasyMotionTarget2Second DARK_ORANGE
-" hi link EasyMotionShade Comment
-
-"YCM
-" let g:ycm_confirm_extra_conf = 0
-
-"Make snipmate cooperate with YCM
-" :imap jj <esc>a<Plug>snipMateNextOrTrigger
-" :smap jj <Plug>snipMateNextOrTrigger
-
-"vimtex
-" let g:tex_flavor='latex'
-" let g:Tex_DefaultTargetFormat='pdf'
-" let g:Tex_MultipleCompileFormats='pdf, bib, dvi'
-" set grepprg=grep\ -nH\ $*
-
-"Syntastic
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
-
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 1
-" let g:syntastic_check_on_wq = 0
-
 "VIM
 "Set up terminal color and color scheme
 " set t_Co=256
-silent! colorscheme inori
+set background=dark
+silent! colorscheme iceberg
 
 "remap leader
 let mapleader=","

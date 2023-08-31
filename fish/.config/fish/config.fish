@@ -5,7 +5,6 @@ end
 set -U fish_greeting
 
 set -x EDITOR vim
-set -x MANPAGER bat
 set -x DEFAULT_USER elias
 
 # Use powerline-shell for prompt

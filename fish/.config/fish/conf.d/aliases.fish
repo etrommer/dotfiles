@@ -9,21 +9,22 @@ alias partitions='lsblk -o HOTPLUG,NAME,LABEL,MOUNTPOINT,SIZE,MODEL,PARTLABEL,TY
 
 if type -q kitty
   alias icat="kitty +kitten icat"
+  # alias diff="kitty +kitten diff"
 end
 
 alias ga="git add"
 alias gai="git add -p"
 alias gl="git log"
-alias gl1="git log -n 1"
 alias gs="git status"
 alias gc="git checkout"
 alias gf="git fetch --all"
 alias gpull="git pull"
 alias gpush="git push"
-alias gm="git commit -m"
 
 alias c="clear"
 alias mkdir="mkdir -p"
+
+alias bathelp="bat --plain --language=help"
 
 if type -q exa
   alias ls="exa"

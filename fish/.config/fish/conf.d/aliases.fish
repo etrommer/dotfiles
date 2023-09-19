@@ -13,11 +13,12 @@ if type -q kitty
 end
 
 alias ga="git add"
-alias gai="git add -p"
+alias gap="git add -p"
 alias gl="git log"
 alias gs="git status"
 alias gc="git checkout"
 alias gf="git fetch --all"
+alias gdf="git diff"
 alias gpull="git pull"
 alias gpush="git push"
 
@@ -26,13 +27,19 @@ alias mkdir="mkdir -p"
 
 alias bathelp="bat --plain --language=help"
 
-if type -q exa
-  alias ls="exa"
-  alias ll="exa -lh"
-  alias la="exa -lah"
-  alias tree="exa -T"
+if type -q eza
+  alias ls="eza"
+  alias ll="eza -lh"
+  alias la="eza -lah"
+  alias tree="eza -T"
 end
 
 if type -q bat
   alias cat="bat"
+end
+
+# Ubuntu
+if type -q batcat
+  alias cat="batcat"
+  alias bat="batcat"
 end

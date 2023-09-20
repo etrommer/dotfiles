@@ -26,20 +26,16 @@ Plugin 'cocopon/iceberg.vim'
 
 call vundle#end()
 
+" Powerline (assumed to be installed systemwide via pip/AUR)
 python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()
 python3 del powerline_setup
+set showtabline=2
 
 filetype plugin indent on
 
-"airline
-" let g:powerline_loaded = 1
-" let g:airline#extensions#tabline#enabled = 1
-" let g:airline_powerline_fonts = 1
-" let g:airline_theme='powerlineish'
-" let g:airline_enable_branch = 1
-" let g:airline_enable_syntastic = 1
-" let g:airline#extensions#tabline#buffer_nr_show = 1
+set encoding=utf-8
+set fileencoding=utf-8
 
 "NerdTree
 map <C-n> :NERDTreeToggle<CR>

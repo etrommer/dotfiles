@@ -27,9 +27,9 @@ Plugin 'cocopon/iceberg.vim'
 call vundle#end()
 
 " Powerline (assumed to be installed systemwide via pip/AUR)
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
+" python3 from powerline.vim import setup as powerline_setup
+" python3 powerline_setup()
+" python3 del powerline_setup
 set showtabline=2
 
 filetype plugin indent on

@@ -1,0 +1,6 @@
+plugins: fetchart
+directory: ~/media/musik
+library: ~/config/beets/musiclibrary.db
+import:
+  move: yes
+

@@ -43,3 +43,7 @@ if type -q batcat
   alias cat="batcat"
   alias bat="batcat"
 end
+
+if type -q fdfind
+  alias fd="fdfind"
+end

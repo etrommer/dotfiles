@@ -1,7 +1,7 @@
 ## My Dotfiles
 ### Arch Install
 ```
-yay -S bat exa powerline fish starship stow 
+yay -S bat eza powerline fish stow 
 ```
 Install using `stow`:
 ```bash
